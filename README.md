@@ -9,8 +9,7 @@
  
 Una base de datos de fácil acceso y consulta sobre pacientes podría ser útil a cualquier área de la salud (medicina,enfermería,estomatología,optometría, psicología,famacéutica,nutrición, etc...)sin importar si los profesionales de las áreas pertinentes se dediquen a la práctica pública o privada. 
   
-  
-
+ 
 
 ### :question: ESTUDIO DE USUARIOS
  
@@ -51,6 +50,9 @@ Los colores que más relacionaban con expediente clínico digital fueron: azul,v
 La última pregunta se colocó para poder implemenar en una futura base de datos, según las necesidades específicas de cada profesional.
 <img src="src/img/encuesta6.png"> 
 
+### :caution: PROBLEMA
+
+El personal del área de la salud se enfrenta día a día al procesamiento y consulta de datos en grandes cantidades, ya sea por el número de pacientes que maneja o por los datos que recolecta de cada paciente; lo cuál puede tornarse en una difícil organización, fastidio y descuido en la base médica de datos. 
 
 
 ### Definición del producto
