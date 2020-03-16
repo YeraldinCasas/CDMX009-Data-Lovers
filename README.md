@@ -25,8 +25,6 @@ A continuación el cuestionario:
 <img src="src/img/encuesta6.png"> 
 
 
-
-
 ### :pencil: RESULTADOS
 
 Entre los profesionales que repsondieron el cuestionario se encuentran: Odontólogos generales, Odontopediatras, Endodoncistas, Nutriológas, Enfermeras, Psicologos, Médicos y Optometristas.
@@ -52,11 +50,14 @@ La última pregunta se colocó para poder implemenar en una futura base de datos
 
 ### :rotating_light: PROBLEMÁTICA
 
-El personal del área de la salud se enfrenta día a día al procesamiento y consulta de datos en grandes cantidades, ya sea por el número de pacientes que maneja o por los datos que recolecta de cada paciente; lo cuál puede tornarse en una difícil organización, fastidio y descuido en la base médica de datos. 
+El personal del área de la salud se enfrenta día a día al procesamiento y consulta de datos en grandes cantidades, ya sea por el número de pacientes que maneja o por los datos que recolecta de cada paciente; lo cuál puede tornarse en una difícil organización, fastidio y descuido en la base médica de datos. Además por los resultados de la encuesta que realizamos el personal médico no está muy cerca de lo digital ni de las nuevas tegnologías cuando a administración se refiere. 
 
 ### :computer: ¿QUÉ PROPONEMOS?
 
 Una base digital de datos médicos para facilitar las tareas de administración y consultoría de pacientes en un consultorio pequeño, una clínica y hasta un hospital.  
+
+### :hourglass_flowing_sand: ¡MANOS A LA OBRA! 
+Para poder tener una distribución 
 
 ### :bust_in_silhouette: HISTORIAS DE USUARIO 
 
