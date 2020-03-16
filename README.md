@@ -54,10 +54,11 @@ La última pregunta se colocó para poder implemenar en una futura base de datos
 
 El personal del área de la salud se enfrenta día a día al procesamiento y consulta de datos en grandes cantidades, ya sea por el número de pacientes que maneja o por los datos que recolecta de cada paciente; lo cuál puede tornarse en una difícil organización, fastidio y descuido en la base médica de datos. 
 
-### :computer:¿QUÉ PROPONEMOS?
+### :computer: ¿QUÉ PROPONEMOS?
 
 Una base digital de datos médicos para facilitar las tareas de administración y consultoría de pacientes en un consultorio pequeño, una clínica y hasta un hospital.  
 
+### :bust_in_silhouette: HISTORIAS DE USUARIO 
 
 
 
