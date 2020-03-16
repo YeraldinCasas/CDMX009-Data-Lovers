@@ -1,13 +1,15 @@
 # :bulb: PROCESO CREATIVO 
- El primer paso fue elegir el tema entre las bases de datos que nos fueron proporcionadas. Decidimos trabajar con "Pacientes en EEUU" porque consideramos que orgenar una base de datos así, tiene mucha utilidad en el area de los profesionales de la salud.
+ El primer paso fue elegir el tema entre las bases de datos que nos fueron proporcionadas. Decidimos trabajar con "Pacientes en EEUU" porque consideramos que orgenar una base de datos así tiene mucha utilidad en el área de los profesionales de la salud.
 
 [Pacientes en EEUU](src/data/patient/patient.json).
  Este set nos proporciona una lista de pacientes de EEUU. Puedes revisar la documentación de su API en este [link](https://r2.smarthealthit.org/Patient).
  
-Una base de datos sobre pacientes podría ser útil a cualquier área de la salud (medicina,enfermería,estomatología,optometría, psicología,famacéutica,nutrición)sin importar si los profesionales de las áreas pertinentes se dediquen a la práctica pública o privada. 
+Una base de datos de fácil acceso y consulta sobre pacientes podría ser útil a cualquier área de la salud (medicina,enfermería,estomatología,optometría, psicología,famacéutica,nutrición, etc...)sin importar si los profesionales de las áreas pertinentes se dediquen a la práctica pública o privada. 
   
- ##ESTUDIO DE USUARIOS 
-Nuestro segundo paso fue realizar una encuesta a diversos profesionales de la salud para identificar que datos sobre los pacientes eran más importantes o útiles a la hora de organizar una base de datos médica. Hicimos la encuesta con la finalidad de acercarnos a los usuarios y conocer sus necesidades al momento de utilizar como herramienta de trabajo una base de datos.
+ ##**ESTUDIO DE USUARIOS**
+Nuestro segundo paso fue realizar una encuesta a diversos profesionales de la salud para identificar que datos sobre los pacientes eran más importantes o útiles a la hora de organizar una base de datos médica. Hicimos la encuesta con la finalidad de acercarnos a los usuarios,conocer sus necesidades y perspectivas al momento de utilizar como herramienta de trabajo una base de datos diital.
+
+A continuación el cuestionario:
 <img src="src/img/encuesta1.png"> 
 <img src="src/img/encuesta1.png"> 
 <img src="src/img/encuesta2.png"> 
@@ -16,30 +18,42 @@ Nuestro segundo paso fue realizar una encuesta a diversos profesionales de la sa
 <img src="src/img/encuesta5.png"> 
 <img src="src/img/encuesta6.png"> 
 
-##RESULTADOS
+##**RESULTADOS**
+Entre los profesionales que repsondieron el cuestionario se encuentran: Odontólogos generales, Odontopediatras, Endodoncistas, Nutriológas, Enfermeras, Psicologos, Médicos y Optometristas.
+<img src="src/img/encuesta1.png"> 
 
+Los datos que solicitan a un paciente para poder llenar una ficha de indentificación son: nombre, edad, dirección, sexo, fecha de nacimiento, estado civil. 
 <img src="src/img/encuesta1.png"> 
-<img src="src/img/encuesta1.png"> 
+
+En un 61.7% el personla del área de la salud epresó que ordenan los expedientes por apellido del paciente. 
 <img src="src/img/encuesta2.png"> 
-<img src="src/img/encuesta3.png"> 
-<img src="src/img/encuesta4.png"> 
+
+El 87.2% dijo que utiliza un expediente clínico de papel y solo el 12.8% utiliza expedientes clínicos digitales.
+<img src="src/img/encuesta3.png">
+
+Padecimiento actual, sexo, fecha de última consulta y lugar de origen son los datos que podrían observarse de manera estadística en las bases de datos médicas.
+<img src="src/img/encuesta4.png">
+
+Los colores que más relacionaban con expdiente clínico digital fueron: azul,verde y blanco. Los cuales fueron tomados a la hora de diseñar la interfaz de usuario. 
 <img src="src/img/encuesta5.png"> 
+
+La última pregunta se colocó para poder implemenar en una futura base de datos, según las necesidades específicas de cada profesional.
 <img src="src/img/encuesta6.png"> 
 
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener _feedback_ e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener _feedback_ e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 - [ ] Planear y ejecutar _tests_ de usabilidad.
 
 ### HTML y CSS
 
-- [ ] Entender y reconocer por qué es importante el HTML semántico.
-- [ ] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender como funciona `flexbox` en CSS.
-- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
+- [x] Entender y reconocer por qué es importante el HTML semántico.
+- [x] Identificar y entender tipos de selectores en CSS.
+- [x] Entender como funciona `flexbox` en CSS.
+- [x] Construir tu aplicación respetando el diseño planeado (maquetación).
 
 ### DOM
 
@@ -63,12 +77,12 @@ Nuestro segundo paso fue realizar una encuesta a diversos profesionales de la sa
 
 ### Git y GitHub
 - [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
-- [ ] Colaborar en Github (pull requests).
+- [x] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
+- [x] Colaborar en Github (pull requests).
 
 ### Buenas prácticas de desarrollo
-- [ ] Organizar y dividir el código en módulos (Modularización).
-- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+- [x] Organizar y dividir el código en módulos (Modularización).
+- [x] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
 
 
