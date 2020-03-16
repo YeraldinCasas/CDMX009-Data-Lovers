@@ -74,7 +74,8 @@ PARA: agilizar la busqueda de la ficha de indentificacción de pacientes.
 
 ### :vhs: WIREFRAME
 
-
+<img src="src/img/wirefrane.jpg"> 
+<img src="src/img/wireframe.jpg"> 
 
 
 
