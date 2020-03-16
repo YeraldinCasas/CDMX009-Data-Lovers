@@ -9,6 +9,9 @@
  
 Una base de datos de fácil acceso y consulta sobre pacientes podría ser útil a cualquier área de la salud (medicina,enfermería,estomatología,optometría, psicología,famacéutica,nutrición, etc...)sin importar si los profesionales de las áreas pertinentes se dediquen a la práctica pública o privada. 
   
+  
+
+
 :question: **ESTUDIO DE USUARIOS**
  
 Nuestro segundo paso fue realizar una encuesta a diversos profesionales de la salud para identificar que datos sobre los pacientes eran más importantes o útiles a la hora de organizar una base de datos médica. Hicimos la encuesta con la finalidad de acercarnos a los usuarios,conocer sus necesidades y perspectivas al momento de utilizar como herramienta de trabajo una base de datos diital.
@@ -21,6 +24,9 @@ A continuación el cuestionario:
 <img src="src/img/encuesta4.png"> 
 <img src="src/img/encuesta5.png"> 
 <img src="src/img/encuesta6.png"> 
+
+
+
 
 :pencil: **RESULTADOS**
 
