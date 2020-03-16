@@ -57,7 +57,8 @@ El personal del área de la salud se enfrenta día a día al procesamiento y con
 Una base digital de datos médicos para facilitar las tareas de administración y consultoría de pacientes en un consultorio pequeño, una clínica y hasta un hospital.  
 
 ### :hourglass_flowing_sand: ¡MANOS A LA OBRA! 
-Para poder tener una distribución 
+Para poder tener una distribución homogénea sobre las tareas a realizar nos apoyamos de la herramienta Trello, así nuestro SCRUM podía ser consultado y modficado por cualquiera de la dos integrantes del equipo.
+<img src="src/img/trello.png"> 
 
 ### :bust_in_silhouette: HISTORIAS DE USUARIO 
 
