@@ -19,7 +19,7 @@ A continuación el cuestionario:
 <img src="src/img/encuesta5.png"> 
 <img src="src/img/encuesta6.png"> 
 
-:pensil: **RESULTADOS**
+:pencil: **RESULTADOS**
 
 Entre los profesionales que repsondieron el cuestionario se encuentran: Odontólogos generales, Odontopediatras, Endodoncistas, Nutriológas, Enfermeras, Psicologos, Médicos y Optometristas.
 <img src="src/img/encuesta1.png"> 
