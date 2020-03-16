@@ -87,14 +87,24 @@ const openModal = () => {
 
 
 //No hemos podido hacer funcionar el filtro, ya tomamos muchos ejemplos pero nada :(
+function myFunction () {
+    var input, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.createElement('table');
+    table.className = 'table';
+    tableBody = document.createElement('tbody');
 
-  function searchPatient() {
-    // Declare variables 
-    let textUser = document.getElementById("#input");
-    let compare = cleanData.filter(textUser);
-
-    for (i = 0; i < cleanData.includes; i++) {
-
+    for (i = 0; i < tbody.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }       
     }
   }
 
