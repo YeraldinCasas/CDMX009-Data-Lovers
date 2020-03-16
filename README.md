@@ -36,7 +36,7 @@ Entre los profesionales que repsondieron el cuestionario se encuentran: Odontól
 Los datos que solicitan a un paciente para poder llenar una ficha de indentificación son: nombre, edad, dirección, sexo, fecha de nacimiento, estado civil. 
 <img src="src/img/encuesta1.png"> 
 
-En un 61.7% el personla del área de la salud epresó que ordenan los expedientes por apellido del paciente. 
+En un 61.7% el personla del área de la salud expresó que ordenan los expedientes por apellido del paciente. 
 <img src="src/img/encuesta2.png"> 
 
 El 87.2% dijo que utiliza un expediente clínico de papel y solo el 12.8% utiliza expedientes clínicos digitales.
@@ -45,7 +45,7 @@ El 87.2% dijo que utiliza un expediente clínico de papel y solo el 12.8% utiliz
 Padecimiento actual, sexo, fecha de última consulta y lugar de origen son los datos que podrían observarse de manera estadística en las bases de datos médicas.
 <img src="src/img/encuesta4.png">
 
-Los colores que más relacionaban con expdiente clínico digital fueron: azul,verde y blanco. Los cuales fueron tomados a la hora de diseñar la interfaz de usuario. 
+Los colores que más relacionaban con expediente clínico digital fueron: azul,verde y blanco. Los cuales fueron tomados a la hora de diseñar la interfaz de usuario. 
 <img src="src/img/encuesta5.png"> 
 
 La última pregunta se colocó para poder implemenar en una futura base de datos, según las necesidades específicas de cada profesional.
