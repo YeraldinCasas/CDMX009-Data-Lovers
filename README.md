@@ -79,6 +79,19 @@ Durante esta etapa diseñamos con lápiz nuesra interfaz de usuario, ordenamos l
 
 <img src="src/img/wireframe2.jpg"> 
 
+Buscamos el feedback en tres ocasiones de nuestros coach y también de nuestras compañeras de bootcamp. 
+
+### :iphone: MOCKUP DE ALTA FIDELIDAD 
+Para poder desarrollar esta parte aplicamos el feedback que nos dieron nuesros coach y nuestras compañeras, así como también tomamos en cuenta los colores que el personal de salud dijo asociar más a un expediente clínico digital los cuales fueron: azul, verde y blanco. La maquetación de desarrollí en Figma.
+
+Se desarollo la maquetación para celular 
+
+<img src="src/img/prototipoCelular.png">
+
+<img src="src/img/prototipoCelular2.png">
+
+
+
 
 
 
