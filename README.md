@@ -1,4 +1,7 @@
-# :bulb: PROCESO CREATIVO 
+# :stethoscop: EASY PATIENT DATA
+
+**:bulb:PROCESO CREATIVO**
+
  El primer paso fue elegir el tema entre las bases de datos que nos fueron proporcionadas. Decidimos trabajar con "Pacientes en EEUU" porque consideramos que orgenar una base de datos así tiene mucha utilidad en el área de los profesionales de la salud.
 
 [Pacientes en EEUU](src/data/patient/patient.json).
