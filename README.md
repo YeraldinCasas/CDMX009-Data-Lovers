@@ -50,16 +50,19 @@ Los colores que más relacionaban con expediente clínico digital fueron: azul,v
 La última pregunta se colocó para poder implemenar en una futura base de datos, según las necesidades específicas de cada profesional.
 <img src="src/img/encuesta6.png"> 
 
-### :danger: PROBLEMA
+### :rotating_light: PROBLEMÁTICA
 
 El personal del área de la salud se enfrenta día a día al procesamiento y consulta de datos en grandes cantidades, ya sea por el número de pacientes que maneja o por los datos que recolecta de cada paciente; lo cuál puede tornarse en una difícil organización, fastidio y descuido en la base médica de datos. 
 
+### :computer:¿QUÉ PROPONEMOS?
 
-### Definición del producto
+Una base digital de datos médicos para facilitar las tareas de administración y consultoría de pacientes en un consultorio pequeño, una clínica y hasta un hospital.  
 
-Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
-contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuario.
+
+
+
+
+
 
 
 ### UX
