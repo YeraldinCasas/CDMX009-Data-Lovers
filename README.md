@@ -60,7 +60,21 @@ Una base digital de datos médicos para facilitar las tareas de administración 
 Para poder tener una distribución homogénea sobre las tareas a realizar nos apoyamos de la herramienta Trello, así nuestro SCRUM podía ser consultado y modficado por cualquiera de la dos integrantes del equipo.
 <img src="src/img/trello.png"> 
 
-### :bust_in_silhouette: HISTORIAS DE USUARIO 
+### :bust_in_silhouette: HISTORIA DE USUARIO 
+
+YO: como profesional de la salud.
+QUIERO: tener fácil acceso a los datos de pacientes.
+PARA: agilizar la busqueda de la ficha de indentificacción de pacientes. 
+
+### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN 
+-Que se apregue al mockup de alta fidelidad
+-Base de datos completa
+-Filtrar datos: id, nombre, apellido, sexo, fecha de nacimiento, fecha de muerte, dirección, teléfono, fecha de muerte, etnía, idioma. 
+-Consultar y encontrar datos individuales de cada paciente. 
+
+### :vhs: WIREFRAME
+
+
 
 
 
