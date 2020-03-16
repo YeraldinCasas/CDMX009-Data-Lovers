@@ -2,12 +2,12 @@
 
 ### :bulb: PROCESO CREATIVO
 
- El primer paso fue elegir el tema entre las bases de datos que nos fueron proporcionadas. Decidimos trabajar con "Pacientes en EEUU" porque consideramos que orgenar una base de datos así tiene mucha utilidad en el área de los profesionales de la salud.
+ El primer paso fue elegir el tema entre las bases de datos que nos fueron proporcionadas. Decidimos trabajar con "Pacientes en EEUU" porque consideramos que ordenar una base de datos así tiene mucha utilidad en el área de los profesionales de la salud.
 
 [Pacientes en EEUU](src/data/patient/patient.json).
  Este set nos proporciona una lista de pacientes de EEUU. Puedes revisar la documentación de su API en este [link](https://r2.smarthealthit.org/Patient).
  
-Una base de datos de fácil acceso y consulta sobre pacientes podría ser útil a cualquier área de la salud (medicina,enfermería,estomatología,optometría, psicología,famacéutica,nutrición, etc...)sin importar si los profesionales de las áreas pertinentes se dediquen a la práctica pública o privada. 
+Una base de datos de fácil acceso y consulta sobre pacientes podría ser útil a cualquier área de la salud (medicina, enfermería, estomatología, optometría, psicología, famacéutica, nutrición, etc...)sin importar si los profesionales de las áreas pertinentes se dediquen a la práctica pública o privada. 
   
  
 
@@ -27,7 +27,7 @@ A continuación el cuestionario:
 
 ### :pencil: RESULTADOS
 
-Entre los profesionales que repsondieron el cuestionario se encuentran: Odontólogos generales, Odontopediatras, Endodoncistas, Nutriológas, Enfermeras, Psicologos, Médicos y Optometristas.
+Entre los profesionales que repsondieron el cuestionario se encuentran: Odontólogos generales, Odontopediatras, Endodoncistas, Nutriológas, Enfermeras, Psicólogos, Médicos y Optometristas.
 <img src="src/img/encuesta1.png"> 
 
 Los datos que solicitan a un paciente para poder llenar una ficha de indentificación son: nombre, edad, dirección, sexo, fecha de nacimiento, estado civil. 
@@ -63,7 +63,9 @@ Para poder tener una distribución homogénea sobre las tareas a realizar nos ap
 ### :bust_in_silhouette: HISTORIA DE USUARIO 
 
 YO: como profesional de la salud.
+
 QUIERO: tener fácil acceso a los datos de pacientes.
+
 PARA: agilizar la busqueda de la ficha de indentificacción de pacientes. 
 
 ### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN 
