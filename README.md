@@ -74,8 +74,8 @@ PARA: agilizar la busqueda de la ficha de indentificacción de pacientes.
 
 ### :vhs: WIREFRAME
 Durante esta etapa diseñamos con lápiz nuesra interfaz de usuario, tomamos en como sería mejor ordenar los datos en base a los resultados del cuestionario, pensamos el nombre de nuestra aplicación web,la distribución de los elementos a consultar y cómo se vería la pantalla de la aplicación funcionando en una pantalla de escritorio y en una pantalla de celular. 
-<img src="src/img/wireframe1.png"> 
-<img src="src/img/wireframe2.png"> 
+<img src="src/img/wireframe1.jpg"> 
+<img src="src/img/wireframe2.jpg"> 
 
 
 
