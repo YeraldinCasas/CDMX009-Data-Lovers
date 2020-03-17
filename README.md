@@ -63,11 +63,28 @@ Para poder tener una distribución homogénea sobre las tareas a realizar nos ap
 ### :bust_in_silhouette: HISTORIA DE USUARIO 
 
 :one: 
+
 YO: como profesional de la salud.
 
 QUIERO: tener fácil acceso a los datos de pacientes.
 
 PARA: agilizar la busqueda de la ficha de indentificacción de pacientes. 
+
+:two:
+
+YO: como usuario de Easy Patient Data
+
+QUIERO: poder visualizar la página web en cualquier dispositivo
+
+PARA: que los datos de los pacientes sigan siendo de fácil consulta
+
+:three:
+
+YO: como usuario de Easy Patient Data
+
+QUIERO: elegir en la versión móvil entre ver las gráficas o la tabla
+
+PARA: no saturarme de información en una pantalla pequeña
 
 ### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN 
 -Que se apregue al mockup de alta fidelidad
