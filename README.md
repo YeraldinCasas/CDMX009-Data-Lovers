@@ -62,6 +62,7 @@ Para poder tener una distribución homogénea sobre las tareas a realizar nos ap
 
 ### :bust_in_silhouette: HISTORIA DE USUARIO 
 
+:one: 
 YO: como profesional de la salud.
 
 QUIERO: tener fácil acceso a los datos de pacientes.
