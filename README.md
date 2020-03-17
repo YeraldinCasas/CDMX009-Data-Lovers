@@ -28,25 +28,25 @@ A continuación el cuestionario:
 ### :pencil: RESULTADOS
 
 Entre los profesionales que repsondieron el cuestionario se encuentran: Odontólogos generales, Odontopediatras, Endodoncistas, Nutriológas, Enfermeras, Psicólogos, Médicos y Optometristas.
-<img src="src/img/encuesta1.png"> 
+<img src="src/respuestas1.png"> 
 
 Los datos que solicitan a un paciente para poder llenar una ficha de indentificación son: nombre, edad, dirección, sexo, fecha de nacimiento, estado civil. 
-<img src="src/img/encuesta1.png"> 
+<img src="src/img/respuestas2.png"> 
 
 En un 61.7% el personla del área de la salud expresó que ordenan los expedientes por apellido del paciente. 
-<img src="src/img/encuesta2.png"> 
+<img src="src/img/respuestas3.png"> 
 
 El 87.2% dijo que utiliza un expediente clínico de papel y solo el 12.8% utiliza expedientes clínicos digitales.
-<img src="src/img/encuesta3.png">
+<img src="src/img/respuestas4.png">
 
 Padecimiento actual, sexo, fecha de última consulta y lugar de origen son los datos que podrían observarse de manera estadística en las bases de datos médicas.
-<img src="src/img/encuesta4.png">
+<img src="src/img/respuestas5.png">
 
 Los colores que más relacionaban con expediente clínico digital fueron: azul,verde y blanco. Los cuales fueron tomados a la hora de diseñar la interfaz de usuario. 
-<img src="src/img/encuesta5.png"> 
+<img src="src/img/respuestas6.png"> 
 
 La última pregunta se colocó para poder implemenar en una futura base de datos, según las necesidades específicas de cada profesional.
-<img src="src/img/encuesta6.png"> 
+<img src="src/img/respuestas7.png"> 
 
 ### :rotating_light: PROBLEMÁTICA
 
