@@ -86,6 +86,14 @@ QUIERO: elegir en la versión móvil entre ver las gráficas o la tabla
 
 PARA: no saturarme de información en una pantalla pequeña
 
+:four: 
+
+YO: como usuario de Easy Patient Data
+
+QUIERO: poder buscar cada paciente de manera individual
+
+PARA: tener acceso a los datos completos del paciente 
+
 ### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN 
 -Que se apregue al mockup de alta fidelidad
 -Base de datos completa
