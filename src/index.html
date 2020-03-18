@@ -122,10 +122,14 @@
                   <input type="radio" name="tabs" id="tab2" />
                   <label for="tab2" role="tab" aria-selected="false" aria-controls="panel2"
                     tabindex="0">Pacientes</label>
-                  <div id="tab-content-table" class="tab-content" role="tabpanel" aria-labelledby="specification"
-                    aria-hidden="true">
-                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar paciente..." title="Type in a name">
+                  <div id="tab-content-table" class="tab-content cardPatient" role="tabpanel" aria-labelledby="specification"
+                    aria-hidden="true">          
+                    <input type="text" id="myInput" onkeyup="searchPatient()" placeholder="Buscar paciente...">
+                      </select></a>
+                    <div id="cardContainer">
+                    </div>
                   </div>
+ 
                 </li>
               </ul>
             </div>
