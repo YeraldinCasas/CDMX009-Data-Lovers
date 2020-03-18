@@ -68,7 +68,7 @@ YO: como profesional de la salud.
 
 QUIERO: tener fácil acceso a los datos de pacientes.
 
-PARA: agilizar la busqueda de la ficha de indentificacción de pacientes. 
+PARA: agilizar la búsqueda de la ficha de identificación de pacientes. 
 
 :two:
 
