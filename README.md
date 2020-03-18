@@ -95,9 +95,13 @@ QUIERO: poder buscar cada paciente de manera individual
 PARA: tener acceso a los datos completos del paciente 
 
 ### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN 
--Que se apregue al mockup de alta fidelidad
+
+-Que se apegue al mockup de alta fidelidad
+
 -Base de datos completa
--Filtrar datos: id, nombre, apellido, sexo, fecha de nacimiento, fecha de muerte, dirección, teléfono, fecha de muerte, etnía, idioma. 
+
+-Filtrar datos: id, nombre, apellido, sexo, fecha de nacimiento, fecha de muerte, dirección, teléfono, etnia, idioma.
+
 -Consultar y encontrar datos individuales de cada paciente. 
 
 ### :vhs: WIREFRAME
