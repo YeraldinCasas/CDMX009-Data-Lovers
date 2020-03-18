@@ -50,7 +50,7 @@ La última pregunta se colocó para poder implemenar en una futura base de datos
 
 ### :rotating_light: PROBLEMÁTICA
 
-El personal del área de la salud se enfrenta día a día al procesamiento y consulta de datos en grandes cantidades, ya sea por el número de pacientes que maneja o por los datos que recolecta de cada paciente; lo cuál puede tornarse en una difícil organización, fastidio y descuido en la base médica de datos. Además por los resultados de la encuesta que realizamos el personal médico no está muy cerca de lo digital ni de las nuevas tegnologías cuando a administración se refiere. 
+El personal del área de la salud se enfrenta día a día al procesamiento y consulta de datos en grandes cantidades, ya sea por el número de pacientes que maneja o por los datos que recolecta de cada paciente; lo cuál puede tornarse en una difícil organización, fastidio y descuido en la base médica de datos. Además por los resultados de la encuesta que realizamos el personal médico no está muy cerca de lo digital ni de las nuevas tecnologías cuando a administración se refiere. 
 
 ### :computer: ¿QUÉ PROPONEMOS?
 
