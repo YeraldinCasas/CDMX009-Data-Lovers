@@ -1,110 +1,35 @@
-import { cleanData } from './data.js';
+// import data from './data/injuries/injuries.js';
+// import data from './data/lol/lol.js';
+import data from './data/patient/patient.js';
+// import data from './data/pokemon/pokemon.js';
+// import data from './data/rickandmorty/rickandmorty.js';
+// import data from './data/steam/steam.js';
+// import data from './data/steam/worldbank.js';
+// esta es una función de ejemplo
+export const example = () => {
+  return 'example';
+};
+/*   const patients = data.entry[1].resource.communication[0].language.coding;s */
+//nuevo objeto con la data filtrada
 
-//Tabla
-window.onload = () => {
-  createTable();
-}
-
-const createTable = () => {
-  let showTable = document.getElementById('tab-content-table');
-  let table = document.createElement('table');
-  table.className = 'table';
-  let tableBody = document.createElement('tbody');
-  table.border = '1';
-  table.appendChild(tableBody);
-
-  //COLUMNAS DE LA TABLA
-  let heading = ['Nombre', 'Fecha de nacimiento', 'Teléfono', 'Dirección'];
-  let trHeader = document.createElement('tr');
-  trHeader.className = 'tableHeader'
-  tableBody.appendChild(trHeader);
-  for (let i = 0; i < heading.length; i++) {
-    let th = document.createElement('th')
-    th.appendChild(document.createTextNode(heading[i]));
-    trHeader.appendChild(th);
-  }
-
- //FILAS DE LA TABLA
-  for (let i = 0; i < cleanData.length; i++) {
-  let tr = document.createElement('tr');
-  let tdName = document.createElement('td');
-
-  let clickName = document.createElement('button');
-  clickName.appendChild(document.createTextNode(cleanData[i].name));
-  clickName.addEventListener('click', () => openModal())
-  clickName.className = '';
-  tdName.appendChild(clickName);
-  tr.appendChild(tdName);
-  tableBody.appendChild(tr);
-
-  let tdBirthdate = document.createElement('td');
-  tdBirthdate.appendChild(document.createTextNode(cleanData[i].birthDate));
-  tr.appendChild(tdBirthdate);
-  tableBody.appendChild(tr);
-
-  let tdPhone = document.createElement('td');
-  tdPhone.appendChild(document.createTextNode(cleanData[i].phone));
-  tr.appendChild(tdPhone);
-  tableBody.appendChild(tr);
-
-  let tdAddress = document.createElement('td');
-  tdAddress.appendChild(document.createTextNode(cleanData[i].address));
-  tr.appendChild(tdAddress);
-  tableBody.appendChild(tr);
-
-  showTable.appendChild(table);
-
-}
- }
- //Necesitamos que cuando se de click en el botón del paciente arroje una card con los datos del paciente
- //que se seleccionó, sin embargo arroja todos
-const openModal = () => {
-  for (let i = 0; i < cleanData.length; i++) {
-    let inf = document.createElement("div")
-    inf.innerHTML = `
-    <div id="modal1" class="modal">
-      <div clas="cardPatient">
-        <div class="iconPatient"></div>
-        <div clas="infoPatient">
-          <h4 class ="titlePatient"><b>${cleanData[i].name}</b></h4>
-            <ul>
-              <li><b>ID:</b>${cleanData[i].id}</li>
-              <li><b>Sexo:</b>${cleanData[i].gender}</li>
-              <li><b>Fecha de nacimiento:</b>${cleanData[i].birthDate}</li>
-              <li><b>Teléfono:</b>${cleanData[i].phone}</li>
-              <li><b>Idioma:</b>${cleanData[i].language}</li>
-              <li><b>Dirección:</b>${cleanData[i].address}</li>
-            </ul>
-        </div>
-      </div>
-    </div>
-    `
-    console.log(inf);
-    document.getElementById('cardContainer').appendChild(inf)
-}
-
-}
-
-
-//No hemos podido hacer funcionar el filtro, ya tomamos muchos ejemplos pero nada :(
-function myFunction () {
-    var input, table, tr, td, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    table = document.createElement('table');
-    table.className = 'table';
-    tableBody = document.createElement('tbody');
-
-    for (i = 0; i < tbody.length; i++) {
-      td = tr[i].getElementsByTagName("td")[0];
-      if (td) {
-        txtValue = td.textContent || td.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          tr[i].style.display = "";
-        } else {
-          tr[i].style.display = "none";
-        }
-      }       
+  export let cleanData = [];
+  
+  // 1.- Accedemos al objeto entry, lista de pacientes y recorrmos cada elemento
+  data.entry.map(recorrer)
+ //2.- función que recibe c/item y aacedemos a los datos que queremos y los almacenamos en un objeto nuevo, y a ese objeto nuevo lo metemos dentro de un array 
+  function recorrer(item){
+    let obj = {
+      id: item.resource.id,
+      name: item.resource.name[0].given[0]+" "+item.resource.name[0].family[0],
+      gender: item.resource.gender,
+      birthDate: item.resource.birthDate,
+      maritalStatus: item.resource.maritalStatus.text,
+      phone: item.resource.telecom[0].value,
+      language: item.resource.communication[0].language.coding[0].display,
+      etnia: item.resource.extension[1].valueCodeableConcept.coding[0].display,
+      address: item.resource.address[0].line[0]+", "+item.resource.address[0].city+", "+item.resource.address[0].state+", "+item.resource.address[0].postalCode,
+      death: item.resource.deceasedDateTime,
     }
+    cleanData.push(obj)
   }
 
