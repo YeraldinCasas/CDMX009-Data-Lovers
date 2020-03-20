@@ -16,7 +16,9 @@
   <header class="my-header">
     <div class="container flex-box-horizontal">
       <div class="logo">
-        <img src="img/logo-patients_1.svg">
+        <a href="index.html">
+          <img src="img/logo-patients_1.svg">
+        </a>
       </div>
       <div class="user">
         <p>¡Hola Adriana!</p>
@@ -24,7 +26,9 @@
       </div>
     </div>
   </header>
+
   <main>
+    <!-- Charts -->
     <section>
       <div class="container">
         <div class="margin-top">
@@ -76,8 +80,11 @@
                 </div>
               </div>
             </div>
+          </div>     
           </div>
+          <!-- mobile-view -->
           <div class="col-8">
+            <div id="cardContainer" class="card-modal"></div>
             <div class="tab">
               <ul class="tabs" role="tablist">
                 <li class="mobile-view">
@@ -123,15 +130,11 @@
                   <label for="tab2" role="tab" aria-selected="false" aria-controls="panel2"
                     tabindex="0">Pacientes</label>
                   <div id="tab-content-table" class="tab-content cardPatient" role="tabpanel" aria-labelledby="specification"
-                    aria-hidden="true">  
+                    aria-hidden="true">
                     <div class="search">        
-                    <input type="text" class="searchBox" id="enterTextBox" placeholder="Paciente...">
-                    <input type="button" class="searchBtn" id="search" value="Buscar" onclick="filterDataName()">
-                    </div>
-                      </select></a>
-                     <div id="cardContainer">
-                    </div>
-                   
+                      <input type="text" class="searchBox" id="enterTextBox" placeholder="Paciente...">
+                      <input type="button" class="searchBtn" id="search" value="Buscar" onclick="filterDataName()">
+                      </div>
                   </div>
                 </li>
               </ul>
@@ -142,9 +145,11 @@
       </div>
       </div>
     </section>
+
+
   </main>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <script src="../node_modules/chart.js/dist/Chart.js"></script>
   <script src="charts.js"></script>
   <script type="module" src="main.js"></script>
 </body>
