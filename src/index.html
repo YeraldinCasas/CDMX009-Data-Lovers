@@ -123,25 +123,25 @@
                   <label for="tab2" role="tab" aria-selected="false" aria-controls="panel2"
                     tabindex="0">Pacientes</label>
                   <div id="tab-content-table" class="tab-content cardPatient" role="tabpanel" aria-labelledby="specification"
-                    aria-hidden="true">          
-                    <input type="text" id="myInput" onkeyup="searchPatient()" placeholder="Buscar paciente...">
-                      </select></a>
-                    <div id="cardContainer">
+                    aria-hidden="true">  
+                    <div class="search">        
+                    <input type="text" class="searchBox" id="enterTextBox" placeholder="Paciente...">
+                    <input type="button" class="searchBtn" id="search" value="Buscar" onclick="filterDataName()">
                     </div>
+                      </select></a>
+                     <div id="cardContainer">
+                    </div>
+                   
                   </div>
- 
                 </li>
               </ul>
             </div>
-
           </div>
         </div>
       </div>
       </div>
       </div>
     </section>
-
-
   </main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
