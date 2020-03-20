@@ -3,18 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* generales */
-
+/*generales*/
+/*generales*/
 body {
   background-color: #f1f1f1;
 }
-
 .container {
   margin-left: 18px;
   margin-right: 18px;
 }
-
 .subtitle h3 {
   font-family: "Roboto";
   color: #040404;
@@ -22,33 +19,34 @@ body {
   font-weight: 300;
   margin: 10px 0px 10px 5px;
 }
-
-.hide{
+.hide {
   display: none;
 }
-
-.mobile-view{
+.mobile-view {
   display: contents;
 }
-
-.desktop-view{
+.desktop-view {
   display: none;
 }
-
 .margin-top {
   margin-top: 40px;
 }
-
-/* columnas */
-.col-4, .col-6, .col-8, .col-12{
+/*columnas*/
+/*columnas*/
+.col-4,
+.col-6,
+.col-8,
+.col-12 {
   width: 100%;
 }
-
-.col-4, .col-6, .col-8, .col-12{
+.col-4,
+.col-6,
+.col-8,
+.col-12 {
   float: left;
 }
-
-/* header */
+/*header*/
+/*header*/
 .my-header {
   position: sticky;
   width: 100%;
@@ -59,12 +57,10 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0px 0px 50px 0px;
 }
-
 .logo img {
   width: 157px;
   padding: 15px 0px;
 }
-
 .user {
   display: flex;
   flex-direction: row;
@@ -80,13 +76,12 @@ body {
   padding: 8px;
   margin-left: 4px;
 }
-
 .flex-box-horizontal {
   display: flex;
   justify-content: space-between;
 }
-
-/* card */
+/*card*/
+/*card*/
 .card {
   background-color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -98,30 +93,25 @@ body {
   color: #5e6973;
   letter-spacing: 1px;
 }
-
 .number-bold {
   font-size: 3em;
   font-weight: 600;
 }
-
 .divition-line {
   border-right: 3px #55c7fd solid;
   padding-right: 75px;
 }
-
 .data {
   margin: 20px 0px;
 }
-
-.width-data{
+.width-data {
   width: 50%;
 }
-
-.blue-line{
+.blue-line {
   border-right: 3px #55c7fd solid;
 }
-
-/*card2 */
+/*card2*/
+/*card2*/
 .card2 {
   background-color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -130,8 +120,8 @@ body {
   font-family: "Montserrat";
 }
 
-
-/* tab */
+/*tab*/
+/*tab*/
 .tabs {
   width: 100%;
   float: none;
@@ -149,7 +139,7 @@ body {
   top: 0;
   left: -9999px;
 }
-.tabs li{
+.tabs li {
   width: 50%;
 }
 .tabs label {
@@ -198,7 +188,6 @@ body {
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
 }
-
 p.link {
   clear: both;
   margin: 380px 0 0 15px;
@@ -219,15 +208,18 @@ p.link a {
 p.link a:hover {
   background-color: #522764;
 }
-
-/* chart */
-.charts{
+/*chart*/
+/*chart*/
+.charts {
   margin: 20px;
 }
 
+/*Table*/
+/*Table*/
 
-/* Table */
-.table{
+.table {
+  overflow: auto;
+  height: 600px;
   border-collapse: collapse;
   width: 100%;
   border: none;
@@ -236,7 +228,7 @@ p.link a:hover {
   overflow-x: auto;
   border-radius: 20px;
 }
-.tableHeader{
+.tableHeader {
   font-family: "Roboto";
   letter-spacing: 2px;
   border: none;
@@ -244,11 +236,11 @@ p.link a:hover {
   background: linear-gradient(336.74deg, #21e9c0 1.46%, #55c7fd 85.12%);
   text-align: center;
 }
-.thHeader{
+.thHeader {
   padding: 12px 5px;
   line-height: normal;
 }
-.tableBody{
+.tableBody {
   font-family: "Roboto";
   font-weight: 200;
   height: 400px;
@@ -258,14 +250,13 @@ p.link a:hover {
   text-align: center;
   line-height: normal;
 }
-.trBody:hover{
+.trBody:hover {
   background-color: #f5f5f5;
 }
-.tdBody{
+.tdBody {
   padding: 12px;
 }
-
-.clickName{
+.clickName {
   border: none;
   color: #5e6973;
   text-decoration: none;
@@ -273,9 +264,8 @@ p.link a:hover {
   background-color: transparent;
   font-size: 1em;
 }
-
-/* Card pacientes */
-.card_container{
+/*Card pacientes*/
+.card_container {
   width: 400px;
   height: 400px;
   background-color: #fff;
@@ -285,63 +275,58 @@ p.link a:hover {
   color: #5e6973;
   letter-spacing: 1px;
 }
-
-.clickNamePatient{
-  background-color: #fff ;
+.clickNamePatient {
+  background-color: #fff;
   border: none;
   font-family: "Roboto";
-} 
-
-
-
-
-/* Media querys */
+}
+/*Media querys*/
+/*Media querys*/
 @media screen and (min-width: 450px) {
   .my-header {
     border-radius: 0px;
   }
-  
 }
 @media screen and (min-width: 769px) {
-  .col-8{
+  .col-8 {
     width: 60%;
     padding: 0px 15px;
   }
-  .col-6{
+  .col-6 {
     width: 50%;
-    padding: 0px 15px 0px 0px; 
+    padding: 0px 15px 0px 0px;
   }
-  .col-4{
+  .col-4 {
     width: 40%;
     padding: 0px 15px;
   }
-  .card-hardData{
+  .card-hardData {
     display: flex;
     justify-content: flex-end;
   }
-  .col-4, .col-8{
+  .col-4,
+  .col-8 {
     float: right;
   }
-  .desktop-view{
+  .desktop-view {
     display: contents;
   }
-  ul .mobile-view{
+  ul .mobile-view {
     display: none;
   }
-  .tabs li{
+  .tabs li {
     width: 100%;
   }
-  
 }
 
-#myInput {
-  background-image: url('/css/searchicon.png');
+#enterTextBox {
+  background-image: url("/img/lupa.png");
   background-position: 10px 10px;
   background-repeat: no-repeat;
   width: 60%;
   border-radius: 20px;
   font-size: 16px;
-  padding: 12px ;
+  padding: 12px;
   border: 50% solid #ddd;
   margin-bottom: 12px;
 }
