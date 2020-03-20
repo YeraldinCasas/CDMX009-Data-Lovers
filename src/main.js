@@ -1,4 +1,4 @@
- import { cleanData } from './data.js';
+import { cleanData } from './data.js';
 
 //Tabla se carga al cargar la página
 window.onload = () => {
@@ -97,7 +97,7 @@ const openModal = (cleanData, cardPatient) => {
 
 
 
-//Filtro por paciente
+//Filtro por paciente, falta aplicarlo en la tabla
 let newCleanData = cleanData.map((cleanData) => {
   return cleanData.name;
 });
