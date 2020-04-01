@@ -3,17 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*generales*/
-/*generales*/
+
+/*general*/
 body {
   background-color: #f1f1f1;
 }
-
 .container {
   margin-left: 18px;
   margin-right: 18px;
 }
-
 .subtitle h3 {
   font-family: "Roboto";
   color: #040404;
@@ -21,34 +19,27 @@ body {
   font-weight: 300;
   margin: 10px 0px 10px 5px;
 }
-
 .hide{
   display: none;
 }
-
 .mobile-view{
   display: contents;
 }
-
 .desktop-view{
   display: none;
 }
-
 .margin-top {
   margin-top: 40px;
 }
 
-/*columnas*/
-/*columnas*/
+/*columns*/
 .col-4, .col-6, .col-8, .col-12{
   width: 100%;
 }
-
 .col-4, .col-6, .col-8, .col-12{
   float: left;
 }
 
-/*header*/
 /*header*/
 .my-header {
   position: sticky;
@@ -60,12 +51,10 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0px 0px 50px 0px;
 }
-
 .logo img {
   width: 157px;
   padding: 15px 0px;
 }
-
 .user {
   display: flex;
   flex-direction: row;
@@ -81,13 +70,11 @@ body {
   padding: 8px;
   margin-left: 4px;
 }
-
 .flex-box-horizontal {
   display: flex;
   justify-content: space-between;
 }
 
-/*card*/
 /*card*/
 .card {
   background-color: #fff;
@@ -100,30 +87,24 @@ body {
   color: #5e6973;
   letter-spacing: 1px;
 }
-
 .number-bold {
   font-size: 3em;
   font-weight: 600;
 }
-
 .divition-line {
   border-right: 3px #55c7fd solid;
   padding-right: 75px;
 }
-
 .data {
   margin: 20px 0px;
 }
-
 .width-data{
   width: 50%;
 }
-
 .blue-line{
   border-right: 3px #55c7fd solid;
 }
 
-/*card2*/
 /*card2*/
 .card2 {
   background-color: #fff;
@@ -133,10 +114,7 @@ body {
   font-family: "Montserrat";
 }
 
-
 /*tab*/
-/*tab*/
-
 .tabs {
   width: 100%;
   float: none;
@@ -203,7 +181,6 @@ body {
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
 }
-
 p.link {
   clear: both;
   margin: 380px 0 0 15px;
@@ -226,16 +203,11 @@ p.link a:hover {
 }
 
 /*chart*/
-/*chart*/
 .charts{
   margin: 20px;
 }
 
-
 /*Table*/
-/*Table*/
-
-
 .table{
   overflow: auto;
   height: 770px;
@@ -274,7 +246,6 @@ p.link a:hover {
 .tdBody{
   padding: 12px;
 }
-
 .clickName{
   border: none;
   color: #5e6973;
@@ -284,52 +255,68 @@ p.link a:hover {
   font-size: 1em;
 }
 
-/*Card pacientes*/
+/*Card patients*/
 .card-modal{
   display: none;
   position: fixed;
   z-index: 100;
-  margin-top: 30px;
-  background-color: #fff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 15px;
-  padding: 30px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal{
   font-family: "Roboto";
   color: #5e6973;
   letter-spacing: 1px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 35px;
+  width: 90%; /* Could be more or less, depending on screen size */
+  margin: 50% auto; /* 15% from the top and centered */
 }
-.infoPatient{  
 
-}
+
 .infoPatient h4{
   font-size: 1.5em;
-  font-family: "Montserrat";
   padding-bottom: 20px;
 }
 .infoPatient ul li{
   list-style: none;
   padding: 5px 0px;
 }
-
-.close{
+.modal-close{
   float: right;
+  margin: 10px;
 }
-
-
+.modal-close a{
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-weight: 700;
+  background: linear-gradient(336.74deg, #21e9c0 1.46%, #55c7fd 85.12%);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 50%;
+}
 .clickNamePatient{
   background-color: #fff ;
   border: none;
   font-family: "Roboto";
 } 
-/*Media querys*/
+
 /*Media querys*/
 @media screen and (min-width: 450px) {
   .my-header {
     border-radius: 0px;
   }
-  
+  .modal{
+    width: 70%; /* Could be more or less, depending on screen size */
+    margin: 30% auto; /* 15% from the top and centered */
+  }
 }
 @media screen and (min-width: 769px) {
   .col-8{
@@ -360,15 +347,9 @@ p.link a:hover {
   .tabs li{
     width: 100%;
   }
-
-  .card-modal{
-    left: 30% ;
-    top: 30%;
+  .modal{
+    width: 35%; /* Could be more or less, depending on screen size */
+    margin: 15% auto; /* 15% from the top and centered */
   }
   
 }
-
-
-
-
-
