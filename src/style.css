@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 /*general*/
 body {
   background-color: #f1f1f1;
@@ -31,7 +30,6 @@ body {
 .margin-top {
   margin-top: 40px;
 }
-
 /*columns*/
 .col-4, .col-6, .col-8, .col-12{
   width: 100%;
@@ -39,7 +37,6 @@ body {
 .col-4, .col-6, .col-8, .col-12{
   float: left;
 }
-
 /*header*/
 .my-header {
   position: sticky;
@@ -74,7 +71,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
 /*card*/
 .card {
   background-color: #fff;
@@ -104,7 +100,6 @@ body {
 .blue-line{
   border-right: 3px #55c7fd solid;
 }
-
 /*card2*/
 .card2 {
   background-color: #fff;
@@ -113,7 +108,6 @@ body {
   padding: 15px 20px;
   font-family: "Montserrat";
 }
-
 /*tab*/
 .tabs {
   width: 100%;
@@ -201,13 +195,15 @@ p.link a {
 p.link a:hover {
   background-color: #522764;
 }
-
+/*chart*/
 /*chart*/
 .charts{
   margin: 20px;
 }
 
 /*Table*/
+/*Table*/
+
 .table{
   overflow: auto;
   height: 770px;
@@ -254,7 +250,6 @@ p.link a:hover {
   background-color: transparent;
   font-size: 1em;
 }
-
 /*Card patients*/
 .card-modal{
   display: none;
