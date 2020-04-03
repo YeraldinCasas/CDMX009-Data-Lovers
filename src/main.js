@@ -1,12 +1,24 @@
 import { cleanData } from './data.js';
+import filter from './data.js';
 
-//Tabla se carga al cargar la página
 window.onload = () => {
   createTable();
 }
-
-const createTable = () => {
+const createTable = (filteredList) => {
+ /*  Table first time */
+  let lista = [...cleanData]
+  /* Filter */
+  if(filteredList){
+    lista = [...filteredList]
+  }
+  
   let showTable = document.getElementById('tab-content-table');
+  showTable.innerHTML = "" // clean table
+  showTable.innerHTML = `<div class="search">        
+                          <input type="text" class="search-Box" id="typeName" placeholder="Paciente...">
+                          <input type="button" class="search-Btn" id="search" value="Buscar">
+                        </div>` // draw input again 
+  setListener() // listener
   let table = document.createElement('table');
   table.className = 'table';
   let tableBody = document.createElement('tbody');
@@ -14,7 +26,7 @@ const createTable = () => {
   table.border = '1';
   table.appendChild(tableBody);
   
-  //Header de la tabla
+/*   Table header */
   let heading = ['Nombre', 'Fecha de nacimiento', 'Teléfono', 'Dirección'];
   let trHeader = document.createElement('tr');
   trHeader.className = 'tableHeader'
@@ -25,15 +37,13 @@ const createTable = () => {
     th.appendChild(document.createTextNode(heading[i]));
     trHeader.appendChild(th);
   }
-
- //Contenido de la tabla
-  for (let i = 0; i < cleanData.length; i++) {
+/*  Table body */
+  for (let i = 0; i < lista.length; i++) {
   let tr = document.createElement('tr');
   tr.className = 'trBody'
-
   let tdName = document.createElement('td');
   let clickName = document.createElement('button');
-  clickName.appendChild(document.createTextNode(cleanData[i].name));
+  clickName.appendChild(document.createTextNode(lista[i].name));
   clickName.className = 'clickName';
   tdName.className = 'tdBody'
   tdName.appendChild(clickName);
@@ -42,30 +52,25 @@ const createTable = () => {
     
   let tdBirthdate = document.createElement('td');
   tdBirthdate.className = 'tdBody'
-  tdBirthdate.appendChild(document.createTextNode(cleanData[i].birthDate));
+  tdBirthdate.appendChild(document.createTextNode(lista[i].birthDate));
   tr.appendChild(tdBirthdate);
   tableBody.appendChild(tr);
-
   let tdPhone = document.createElement('td');
   tdPhone.className = 'tdBody'
-  tdPhone.appendChild(document.createTextNode(cleanData[i].phone));
+  tdPhone.appendChild(document.createTextNode(lista[i].phone));
   tr.appendChild(tdPhone);
   tableBody.appendChild(tr);
-
   let tdAddress = document.createElement('td');
   tdAddress.className = 'tdBody'
-  tdAddress.appendChild(document.createTextNode(cleanData[i].address));
+  tdAddress.appendChild(document.createTextNode(lista[i].address));
   tr.appendChild(tdAddress);
   tableBody.appendChild(tr);
-
   showTable.appendChild(table);
 }
-  openModal(cleanData, cardPatient);
+  openModal(lista, cardPatient);
  }
-
- //Interacción por paciente
+/* Card patients */
 let cardPatient = document.getElementsByClassName('clickName');
-
 const openModal = (cleanData, cardPatient) => {
   
   for (let i = 0; i < cardPatient.length; i++) {
@@ -86,25 +91,26 @@ const openModal = (cleanData, cardPatient) => {
                 <li>Etnia: <b>${cleanData[i].etnia}</b></li>
               </ul>
         </div>
-        <div class="close">
-          <b>X</b>
+        <div id="modalClose" class="modal-close">
+          <a href="#"><b>X</b></a>
         </div>
       </div>
       `
+      modalClose.onclick = () => {
+        document.getElementById('cardContainer').style.display='none';
+      }
     });
 }
 }
-
-
-
-//Filtro por paciente, falta aplicarlo en la tabla
-let newCleanData = cleanData.map((cleanData) => {
-  return cleanData.name;
-});
-//console.log(newCleanData.sort())
-const filterDataName = (typeName) => {
-  return newCleanData.filter((el) => {
-    return el.toLowerCase().indexOf(typeName.toLowerCase()) > -1;
-  });
+/* Filter by name */
+let arrayPatients;
+let searchPatient = () => {
+  let enterName = document.querySelector("#typeName").value
+  arrayPatients = filter.filterByName(enterName);
+  createTable(arrayPatients);
 }
-console.log(filterDataName("Ca"));
+/* Button */
+function setListener(){
+  let searchButton = document.getElementById("search");
+  searchButton.addEventListener("click", searchPatient);
+}
