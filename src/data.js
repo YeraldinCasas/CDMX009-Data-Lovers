@@ -1,23 +1,12 @@
-// import data from './data/injuries/injuries.js';
-// import data from './data/lol/lol.js';
 import data from './data/patient/patient.js';
-// import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
-// import data from './data/steam/steam.js';
-// import data from './data/steam/worldbank.js';
-
-
-/*   const patients = data.entry[1].resource.communication[0].language.coding;s */
-//nuevo objeto con la data filtrada
-
-
   export let cleanData = [];
   
-  // 1.- Accedemos al objeto entry, lista de pacientes y recorrmos cada elemento
-  data.entry.forEach(recorrer)
-
- //2.- función que recibe c/item y aacedemos a los datos que queremos y los almacenamos en un objeto nuevo, y a ese objeto nuevo lo metemos dentro de un array 
-  function recorrer(item){
+ /* 1.- Acces to entry object, patients list  Accedemos al objeto entry, 
+  lista de pacientes y recorrmos cada elemento */
+  data.entry.map(iterator)
+/*  2.- function that receives c / item and we access the data we want and store it in a new object, 
+ we put that new object inside an array */
+  function iterator(item){
     let obj = {
       id: item.resource.id,
       name: item.resource.name[0].given[0]+" "+item.resource.name[0].family[0],
@@ -32,7 +21,12 @@ import data from './data/patient/patient.js';
     }
     cleanData.push(obj)
   }
-  //
-
-  
- 
+/* Filter by name */
+  const filters = {
+    filterByName(enterName){
+      return cleanData.filter(cleanData => {
+          return cleanData.name.toLowerCase().includes(enterName.toLowerCase())
+      });
+    }
+  };
+  export default filters;
