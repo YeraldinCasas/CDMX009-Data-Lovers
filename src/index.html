@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <title>Data Lovers</title>
@@ -8,11 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
-
 </head>
-
 <body>
-
   <header class="my-header">
     <div class="container flex-box-horizontal">
       <div class="logo">
@@ -26,7 +22,6 @@
       </div>
     </div>
   </header>
-
   <main>
     <!-- Charts -->
     <section>
@@ -132,9 +127,10 @@
                   <div id="tab-content-table" class="tab-content cardPatient" role="tabpanel" aria-labelledby="specification"
                     aria-hidden="true">
                     <div class="search">        
-                      <input type="text" class="searchBox" id="enterTextBox" placeholder="Paciente...">
-                      <input type="button" class="searchBtn" id="search" value="Buscar" onclick="filterDataName()">
-                      </div>
+                      <input type="text" class="search-Box" id="typeName" placeholder="Paciente...">
+                      <input type="button" class="search-Btn" id="search" value="Buscar">
+                      
+                    </div>
                   </div>
                 </li>
               </ul>
@@ -145,13 +141,9 @@
       </div>
       </div>
     </section>
-
-
   </main>
-
   <script src="../node_modules/chart.js/dist/Chart.js"></script>
   <script src="charts.js"></script>
   <script type="module" src="main.js"></script>
 </body>
-
 </html>
