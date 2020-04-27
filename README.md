@@ -163,17 +163,17 @@ Desktop screen prototype developed
 - [x] Understand the use of conditionals (`if-else` | `switch`).
 - [X] Understand the use of loops (`for` | `forEach`).
 - [ ] Understand the difference between expression and statements.
-- [x] Utilizar funciones (parámetros | argumentos | valor de retorno).
+- [x] Use functions (parameters | arguments | return value).
 - [ ] Understand the difference between atomic and structured data types.
 - [X] ES Modules (`import` | `export`).
 
 **Unit tests (_testing_)**
-- [ ] Testear funciones (funciones puras).
+- [ ] Test functions (pure functions).
 
  **Git y GitHub**
 - [x] Run git commands (`add` | `commit` | `pull` | `status` | `push`).
 - [x] Use the GitHub repositories (`clone` | `fork` | gh-pages).
-- [x] Colaborar en Github (pull requests).
+- [x] Collaborate on Github (pull requests).
 
 **Good development practices**
 - [x] Organize and divide the code into modules (Modularization).
