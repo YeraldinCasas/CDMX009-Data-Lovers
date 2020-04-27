@@ -4,18 +4,18 @@
 
 The first step was to choose the topic among the databases that were provided to us. We decided to work with "Patients in the USA" because we consider that ordering such a database is very useful in the area of health professionals.
 
-[Pacientes en EEUU](src/data/patient/patient.json).
- Este set nos proporciona una lista de pacientes de EEUU. Puedes revisar la documentación de su API en este [link](https://r2.smarthealthit.org/Patient).
+[EEUU patiens](src/data/patient/patient.json).
+This set provides us with a list of US patients. You can check the documentation of its API in this [link](https://r2.smarthealthit.org/Patient).
  
-Una base de datos de fácil acceso y consulta sobre pacientes podría ser útil a cualquier área de la salud (medicina, enfermería, estomatología, optometría, psicología, farmacéutica, nutrición, etc...)sin importar si los profesionales de las áreas pertinentes se dediquen a la práctica pública o privada. 
-  
+An easily accessible database and consultation on patients could be useful to any area of health (medicine, nursing, stomatology, optometry, psychology, pharmaceuticals, nutrition, etc ...) regardless of whether professionals in the relevant areas are engage in public or private practice.
  
 
-### :question: ESTUDIO DE USUARIOS
+### :question:STUDY OF USERS
  
-Nuestro segundo paso fue realizar una encuesta a diversos profesionales de la salud para identificar que datos sobre los pacientes eran más importantes o útiles a la hora de organizar una base de datos médica. Hicimos la encuesta con la finalidad de acercarnos a los usuarios,conocer sus necesidades y perspectivas al momento de utilizar como herramienta de trabajo una base de datos digital.
+Our second step was to survey various health professionals to identify which patient data were most important or useful in organizing a medical database. We carried out the survey in order to get closer to the users, to know their needs and perspectives when using a digital database as a working tool.
 
-A continuación el cuestionario:
+Here is the questionnaire:
+
 <img src="src/img/encuesta1.png"> 
 <img src="src/img/encuesta1.png"> 
 <img src="src/img/encuesta2.png"> 
@@ -25,104 +25,110 @@ A continuación el cuestionario:
 <img src="src/img/encuesta6.png"> 
 
 
-### :pencil: RESULTADOS
+### :pencil:RESULTS
 
-Entre los profesionales que repsondieron el cuestionario se encuentran: Odontólogos generales, Odontopediatras, Endodoncistas, Nutriológas, Enfermeras, Psicólogos, Médicos y Optometristas.
+Among the professionals who answered the questionnaire are: General Dentists, Pediatric Dentists, Endodontists, Nutriologists, Nurses, Psychologists, Doctors and Optometrists.
 <img src="src/respuestas1.png"> 
 
-Los datos que solicitan a un paciente para poder llenar una ficha de indentificación son: nombre, edad, dirección, sexo, fecha de nacimiento, estado civil. 
+The data that a patient is asked to fill out an identification form are: name, age, address, sex, date of birth, marital status.
 <img src="src/img/respuestas2.png"> 
 
-En un 61.7% el personla del área de la salud expresó que ordenan los expedientes por apellido del paciente. 
+In a 61.7% the personnel of the health area expressed that they order the files by the patient's last name. 
 <img src="src/img/respuestas3.png"> 
 
-El 87.2% dijo que utiliza un expediente clínico de papel y solo el 12.8% utiliza expedientes clínicos digitales.
+87.2% said they use a paper clinical record and only 12.8% use digital clinical records.
 <img src="src/img/respuestas4.png">
 
-Padecimiento actual, sexo, fecha de última consulta y lugar de origen son los datos que podrían observarse de manera estadística en las bases de datos médicas.
+Current condition, sex, date of last consultation and place of origin are the data that could be statistically observed in medical databases.
 <img src="src/img/respuestas5.png">
 
-Los colores que más relacionaban con expediente clínico digital fueron: azul,verde y blanco. Los cuales fueron tomados a la hora de diseñar la interfaz de usuario. 
+The colors that most related to digital clinical record were: blue, green and white. Which were taken at the time of designing the user interface.
 <img src="src/img/respuestas6.png"> 
 
-La última pregunta se colocó para poder implemenar en una futura base de datos, según las necesidades específicas de cada profesional.
+The last question was placed to be able to implement in a future database, according to the specific needs of each professional.
 <img src="src/img/respuestas7.png"> 
 
-### :rotating_light: PROBLEMÁTICA
+### :rotating_light: PROBLEM
 
-El personal del área de la salud se enfrenta día a día al procesamiento y consulta de datos en grandes cantidades, ya sea por el número de pacientes que maneja o por los datos que recolecta de cada paciente; lo cuál puede tornarse en una difícil organización, fastidio y descuido en la base médica de datos. Además por los resultados de la encuesta que realizamos el personal médico no está muy cerca de lo digital ni de las nuevas tecnologías cuando a administración se refiere. 
+Staff health area daily faces query processing and data in large quantities, either by the number of patients who handles or data collected from each patient; which can become a difficult organization, annoyance and carelessness in the medical database. Furthermore, due to the results of the survey that the medical personnel carry out, it is not very close to digital or new technologies when it comes to administration.
 
-### :computer: ¿QUÉ PROPONEMOS?
+### :computer: WHAT DO WE PROPOSE?
 
-Una base digital de datos médicos para facilitar las tareas de administración y consultoría de pacientes en un consultorio pequeño, una clínica y hasta un hospital.  
+A digital medical database to facilitate patient management and consulting in a small office, clinic, and even a hospital.
 
-### :hourglass_flowing_sand: ¡MANOS A LA OBRA! 
-Para poder tener una distribución homogénea sobre las tareas a realizar nos apoyamos de la herramienta Trello, así nuestro SCRUM podía ser consultado y modficado por cualquiera de la dos integrantes del equipo.
+
+### :hourglass_flowing_sand:LET'S DO IT!
+
+To have a homogeneous distribution of the tasks to be carried out, we used the Trello tool, so our SCRUM could be consulted and modified by any of the two team members.
 <img src="src/img/trello.png"> 
 
-### :bust_in_silhouette: HISTORIAS DE USUARIO 
+### :bust_in_silhouette: USER STORIES
 
 :one: 
 
-YO: como profesional de la salud.
+ME: As a health professional.
 
-QUIERO: tener fácil acceso a los datos de pacientes.
+I WANT: easy access to patient data.
 
-PARA: agilizar la búsqueda de la ficha de identificación de pacientes. 
+TO: expedite the search for the patient identification card.
 
 :two:
 
-YO: como usuario de Easy Patient Data
+ME: As a user of Easy Patient Data
 
-QUIERO: poder visualizar la página web en cualquier dispositivo
+I WANT: to be able to view the website on any device
 
-PARA: que los datos de los pacientes sigan siendo de fácil consulta
+TO: keep patient data readily accessible
 
 :three:
 
-YO: como usuario de Easy Patient Data
+ME: As a user of Easy Patient Data
 
-QUIERO: elegir en la versión móvil entre ver las gráficas o la tabla
+I WANT: choose in the mobile version to see the graphs or the table
 
-PARA: no saturarme de información en una pantalla pequeña
+TO: not saturate myself with information on a small screen
 
 :four: 
+ME: As a user of Easy Patient Data
 
-YO: como usuario de Easy Patient Data
+I WANT: to be able to search each patient individually
 
-QUIERO: poder buscar cada paciente de manera individual
+TO: have access to complete patient data
 
-PARA: tener acceso a los datos completos del paciente 
 
-### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN 
+### :heavy_check_mark: CRITERIA OF ACCEPTANCE
 
--Que se apegue al mockup de alta fidelidad
+-To stick to the high fidelity prototype
 
--Base de datos completa
+-Complete database
 
--Filtrar datos: id, nombre, apellido, sexo, fecha de nacimiento, fecha de muerte, dirección, teléfono, etnia, idioma.
+-Filter data: id, name, surname, gender, date of birth, date of death, address, telephone, ethnicity, language.
 
--Consultar y encontrar datos individuales de cada paciente. 
+-Consult and find individual data for each patient.
 
-### :vhs: PROTOTIPO DE BAJA FIDELIDAD
-Durante esta etapa diseñamos con lápiz nuesra interfaz de usuario, ordenamos los datos en base a los resultados del cuestionario, pensamos el nombre de nuestra aplicación web,la distribución de los elementos a consultar y cómo se vería la pantalla de la aplicación funcionando en una pantalla de escritorio y en una pantalla de celular. 
+
+### :vhs:LOW FIDELITY PROTOTYPE
+
+During this stage we design our user interface with pencil, we order the data based on the results of the questionnaire, we think about the name of our web application, the distribution of the elements to be consulted and what the application screen would look like working on a screen desktop and on a cell phone screen.
 
 <img src="src/img/wireframe1.jpg"> 
 
 <img src="src/img/wireframe2.jpg"> 
 
-Buscamos el feedback en tres ocasiones de nuestros coach y también de nuestras compañeras de bootcamp. 
+We seek feedback on three occasions from our coaches and also from our bootcamp partners.
 
-### :iphone: PROTOTIPO DE ALTA FIDELIDAD
-Para poder desarrollar esta parte aplicamos el feedback que nos dieron nuesros coach y nuestras compañeras, así como también tomamos en cuenta los colores que el personal de salud dijo asociar más a un expediente clínico digital los cuales fueron: azul, verde y blanco. El prototipo se desarrolló en Figma.
+### :iphone: HIGH FIDELITY PROTOTYPE
 
-Se desarolló el prototipo para pantalla de teléfono celular 
+To develop this part we applied the feedback that our coach and our colleagues gave us, as well as taking into account the colors that the health personnel said to associate more with a digital clinical record, which were: blue, green and white. The prototype was developed in Figma.
+
+Prototype for cell phone display developed
 
 <img src="src/img/prototipoCelular.png">
 
 <img src="src/img/prototipoCelular2.png">
 
-Se desarrolló el mockup para pantalla de escritorio 
+
+Desktop screen prototype developed
 
 <img src="src/img/prototipoEscritorio.png">
 
@@ -132,48 +138,47 @@ Se desarrolló el mockup para pantalla de escritorio
 
 
 
-### :pushpin: OBJETIVOS DE APRENDIZAJE
+### :pushpin:LEARNING OBJECTIVES
 
  **UX**
-- [x] Diseñar la aplicación pensando y entendiendo al usuario.
-- [x] Crear prototipos para obtener _feedback_ e iterar.
-- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-- [x] Planear y ejecutar _tests_ de usabilidad.
+- [x] Design the application thinking and understanding the user.
+- [x] Prototyping to get _ feedback _ and iterate.
+- [x] Apply the principles of visual design (contrast, alignment, hierarchy).
+- [x] Plan and run usability tests.
 
 **HTML y CSS**
-- [x] Entender y reconocer por qué es importante el HTML semántico.
-- [x] Identificar y entender tipos de selectores en CSS.
-- [x] Entender como funciona `flexbox` en CSS.
-- [x] Construir tu aplicación respetando el diseño planeado (maquetación).
+- [x] Understand and recognize why semantic HTML is important.
+- [x] Identify and understand CSS selector types.
+- [x] Understand how `flexbox` works in CSS.
+- [x] Build your application respecting the planned design (layout).
 
 **DOM**
-- [X] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
-- [X] Manejar eventos del DOM. (addEventListener)
-- [X] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value)
+- [X] Understand and recognize DOM selectors (querySelector | querySelectorAll).
+- [X] Handle DOM events.(addEventListener)
+- [X] Dynamically manipulate the DOM. (createElement, appendchild, innerHTML, value)
 
 **Javascript**
-- [X] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
-- [X] Manipular objects (key | value).
-- [x] Entender el uso de condicionales (`if-else` | `switch`).
-- [X] Entender el uso de bucles (`for` | `forEach`).
-- [ ] Entender la diferencia entre expression y statements.
+- [X] Manipulate arrays (`filter` | `map` | `sort` | `reduce`).
+- [X] Manipulate objects (key | value).
+- [x] Understand the use of conditionals (`if-else` | `switch`).
+- [X] Understand the use of loops (`for` | `forEach`).
+- [ ] Understand the difference between expression and statements.
 - [x] Utilizar funciones (parámetros | argumentos | valor de retorno).
-- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
-- [X] Utilizar ES Modules (`import` | `export`).
+- [ ] Understand the difference between atomic and structured data types.
+- [X] ES Modules (`import` | `export`).
 
-**Pruebas Unitarias (_testing_)**
+**Unit tests (_testing_)**
 - [ ] Testear funciones (funciones puras).
 
  **Git y GitHub**
-- [x] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [x] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
+- [x] Run git commands (`add` | `commit` | `pull` | `status` | `push`).
+- [x] Use the GitHub repositories (`clone` | `fork` | gh-pages).
 - [x] Colaborar en Github (pull requests).
 
-**Buenas prácticas de desarrollo**
-- [x] Organizar y dividir el código en módulos (Modularización).
-- [x] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
-
+**Good development practices**
+- [x] Organize and divide the code into modules (Modularization).
+- [x] Use descriptive identifiers (Nomenclature | Semantics).
+- [ ] Use linter to follow good practices (ESLINT).
 
 
 
