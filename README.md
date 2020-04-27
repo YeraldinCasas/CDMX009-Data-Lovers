@@ -1,8 +1,8 @@
 # :syringe: EASY PATIENT DATA
 
-### :bulb: PROCESO CREATIVO
+### :bulb: CREATIVE PROCESS
 
- El primer paso fue elegir el tema entre las bases de datos que nos fueron proporcionadas. Decidimos trabajar con "Pacientes en EEUU" porque consideramos que ordenar una base de datos así tiene mucha utilidad en el área de los profesionales de la salud.
+The first step was to choose the topic among the databases that were provided to us. We decided to work with "Patients in the USA" because we consider that ordering such a database is very useful in the area of health professionals.
 
 [Pacientes en EEUU](src/data/patient/patient.json).
  Este set nos proporciona una lista de pacientes de EEUU. Puedes revisar la documentación de su API en este [link](https://r2.smarthealthit.org/Patient).
