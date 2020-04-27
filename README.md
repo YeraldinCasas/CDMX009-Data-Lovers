@@ -104,7 +104,7 @@ PARA: tener acceso a los datos completos del paciente
 
 -Consultar y encontrar datos individuales de cada paciente. 
 
-### :vhs: WIREFRAME
+### :vhs: PROTOTIPO DE BAJA FIDELIDAD
 Durante esta etapa diseñamos con lápiz nuesra interfaz de usuario, ordenamos los datos en base a los resultados del cuestionario, pensamos el nombre de nuestra aplicación web,la distribución de los elementos a consultar y cómo se vería la pantalla de la aplicación funcionando en una pantalla de escritorio y en una pantalla de celular. 
 
 <img src="src/img/wireframe1.jpg"> 
@@ -113,10 +113,10 @@ Durante esta etapa diseñamos con lápiz nuesra interfaz de usuario, ordenamos l
 
 Buscamos el feedback en tres ocasiones de nuestros coach y también de nuestras compañeras de bootcamp. 
 
-### :iphone: MOCKUP DE ALTA FIDELIDAD 
-Para poder desarrollar esta parte aplicamos el feedback que nos dieron nuesros coach y nuestras compañeras, así como también tomamos en cuenta los colores que el personal de salud dijo asociar más a un expediente clínico digital los cuales fueron: azul, verde y blanco. El mockup se desarrolló en Figma.
+### :iphone: PROTOTIPO DE ALTA FIDELIDAD
+Para poder desarrollar esta parte aplicamos el feedback que nos dieron nuesros coach y nuestras compañeras, así como también tomamos en cuenta los colores que el personal de salud dijo asociar más a un expediente clínico digital los cuales fueron: azul, verde y blanco. El prototipo se desarrolló en Figma.
 
-Se desarolló el mockup para pantalla de teléfono celular 
+Se desarolló el prototipo para pantalla de teléfono celular 
 
 <img src="src/img/prototipoCelular.png">
 
